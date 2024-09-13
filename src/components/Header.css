@@ -30,10 +30,10 @@
 }
 
 .nav-links li:hover {
-    color: #00adef; /* Highlight color */
+    color: #00adef; 
 }
 
-/* Mobile responsiveness for navigation */
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;

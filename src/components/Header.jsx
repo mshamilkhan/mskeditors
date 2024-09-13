@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import logo from '../assets/img/blue1.1 1.png'; // Replace with the actual path of your logo
+import logo from '../assets/img/blue1.1 1.png'; 
 
 const Header = () => {
   return (

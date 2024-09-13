@@ -1,10 +1,10 @@
 /* Banner Section */
 .banner {
-    background-image: url(../assets/img/hero1.png); /* Ensure correct path to your image */
+    background-image: url(../assets/img/hero1.png); 
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    z-index: 1; /* Ensures content is above background */
+    z-index: 1; 
 }
 .content {
     justify-content:space-evenly;
@@ -24,20 +24,20 @@
 
 .content h1 .highlight {
     color: #00adef;
-    font-size: 3rem; /* Highlight color */
+    font-size: 3rem; 
 }
 .content h1 .highlight1 {
     color: #ffffff;
     text-shadow: 1px 1px 30px #00ffd0ba;
-    font-size: 9rem; /* Highlight color */
+    font-size: 9rem; 
 }.content h1 .highlight2 {
     color: #04384f;
     text-decoration: line-through;
-    font-size: 5rem; /* Highlight color */
+    font-size: 5rem; 
 }
 .content h1 .highlight3 {
     color: #04384f;
-    font-size: 5rem; /* Highlight color */
+    font-size: 5rem; 
 }
 
 .place-order-btn {
@@ -57,20 +57,20 @@
     border:none;
 }
 
-/* Mobile responsiveness */
+
 @media (max-width: 768px) {
     .banner {
         flex-direction: column;
         text-align: center;
         padding: 20px;
-        height: 100vh; /* Full screen on mobile */
+        height: 100vh; 
     }
 
     .content h1 {
         font-size: 2.5rem;
     }
     body{
-        background-image: url(../assets/img/21.png); /* Ensure correct path to your image */
+        background-image: url(../assets/img/21.png); 
         background-size: cover;
         background-repeat: no-repeat;
     }

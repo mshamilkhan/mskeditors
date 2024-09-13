@@ -7,7 +7,6 @@ const Services = () => {
     return (
         <div className="services-container">
             <h1 className="services-title">OUR <span className="highlight">SERVICES</span></h1>
-            {/* Service 1 */}
             <div className="service-card">
                 <img src={serviceImage1} alt="Website Development" className="service-image" />
                 <div className="service-info">
@@ -19,8 +18,6 @@ const Services = () => {
                 </div>
             </div>
             <div className="services-grid">
-
-                {/* Service 2 */}
                 <div className="service-card1">
                     <div className="service-content">
                         <div className="service-info">
@@ -32,9 +29,6 @@ const Services = () => {
                         <img src={vector} alt="vector" className="vector-image" />
                     </div>
                 </div>
-
-
-                {/* Service 3 */}
                 <div className="service-card2">
                     <div className="service-info">
                     </div>
