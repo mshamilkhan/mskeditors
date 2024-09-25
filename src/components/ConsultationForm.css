@@ -1,0 +1,206 @@
+/* Container and Background Styling */
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-image: url(../assets/img/2.png);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+    z-index: 1;
+}
+
+/* Banner Styling */
+.heading{
+    text-align: center;
+    margin-bottom: 10%;
+    margin: 150px;
+}
+.heading h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.heading .highlight {
+    color: #00C0FF; 
+}
+
+.heading p {
+    font-size: 20px;
+    margin: 20px;
+    color: #9E9E9E;
+    font-weight: normal;
+}
+
+.consultation-button {
+    padding: 16px 23px;
+    background-color: #000000;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.line{
+    border-Top: 1.2px solid #fff ;
+    margin: 100px 70px 0px 70px;
+}
+.line2{
+    border-Top: 1.2px solid #fff ;
+    margin: 0px 70px 0px 70px;
+}
+/* Clients Section Styling */
+.clients-section {
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
+  }
+  
+  .clients-heading h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .clients-heading .highlight {
+    color: #00adef; 
+  }
+  
+  .clients-heading p {
+    font-size: 20px;
+    color: #ccc; 
+    margin-bottom: 30px;
+  }
+  
+  .clients-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .client-logo {
+    width: 150px;
+    height: 150px;
+    margin: 50px 15px ;
+  }
+  
+.logo-container {
+    position: relative; 
+    transform: translate(-100%, 160%);
+    text-align: center;
+  }
+  
+  .contactlogo {
+    max-width: 100%;  
+    height: auto;
+    width: 600px; 
+  }
+
+
+/* Form Styling */
+.form-container {
+    background-color: #01141ac3; 
+    padding: 40px;
+    border-radius: 40px;
+    width: 350px;
+    min-height: 450px; 
+    margin-right: 50px;
+    text-align: center;
+    box-sizing: border-box; 
+    margin-bottom: 10%;
+    border:1px solid #ffffff70;
+}
+
+
+.form-container h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #00adef;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: #00304A;
+    height: 20px;
+    height: auto;
+}
+
+.form button {
+    padding: 16px;
+    margin: auto;
+    border: none;
+    border-radius:  15px;
+    background-color: #000102;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 80%;
+}
+
+
+/* Footer Styling */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .form-container {
+        margin-right: 0;
+        width: 80%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .client-logo {
+      width: 120px;
+      margin: 15px 10px;
+    }
+}

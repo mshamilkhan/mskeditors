@@ -4,7 +4,7 @@
     padding: 20px 2px;
     background-color: transparent;
     position: absolute;
-    width: 100%;
+    width: auto;
     top: 0;
     z-index: 1;
 }
@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     margin-left: 70px;
+   font-family: "Inter", sans-serif;
 }
 
 .nav-links li {
@@ -42,7 +43,7 @@
 
     .nav-links {
         flex-direction: column;
-        align-items: center;
+        align-items: right;
     }
 
     .nav-links li {
